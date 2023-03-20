@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form method="post" action="">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="100" required><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender-male" name="gender" value="Male" required><br>
+        <label for="gender-male">Male</label><br>
+        <input type="radio" id="gender-female" name="gender" value="Female" required><br>
+        <label for="gender-female">Female</label><br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="5" required></textarea><br>
+        <label for="contact">Contact No:</label><br>
+        <input type="tel" id="contact" name="contact"  required><br>
+        <label for="subjects">Subjects to enroll:</label><br>
+        <select id="subjects" name="subjects[]" multiple required><br>
+            <option value="maths">Maths</option><br>
+            <option value="science">Science</option><br>
+            <option value="english">English</option><br>
+            <option value="history">History</option><br>
+            <option value="geography">Geography</option><br>
+        </select><br>                                                                                      
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
