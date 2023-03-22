@@ -1,0 +1,26 @@
+h1{
+    text-align:center;
+    color:red;
+    }
+    .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .item {
+    flex-basis: 300px;
+    margin: 20px;
+    }
+    
+    img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .description {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    }
